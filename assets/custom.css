@@ -1,0 +1,16 @@
+/* Buzzwoo! CSS additions */
+
+/* add styles to have headlines with colored background */
+.headline-with-bg {
+  display: inline-block;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding-inline: 15px;
+  padding-block: 10px;
+  /* pill shape start
+  border-radius: 999px;      
+  pill shape end*/
+  background: var(--headline-bg, transparent);
+  color: var(--headline-fg, inherit);
+  line-height: 1.2;
+}
